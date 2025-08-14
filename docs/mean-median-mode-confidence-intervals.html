@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mean, Median, Mode, &amp; Confidence Intervals | LO</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="Alright, let’s pull our lab coats on and talk about statistics. And before you start having flashbacks to a tough math class, let me reframe this for you. These concepts—mean, median, mode, and...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Mean, Median, Mode, &amp; Confidence Intervals | LO">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Alright, let’s pull our lab coats on and talk about statistics. And before you start having flashbacks to a tough math class, let me reframe this for you. These concepts—mean, median, mode, and...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mean, Median, Mode, &amp; Confidence Intervals | LO">
+<meta name="twitter:description" content="Alright, let’s pull our lab coats on and talk about statistics. And before you start having flashbacks to a tough math class, let me reframe this for you. These concepts—mean, median, mode, and...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Quality Assessment &amp; Troubleshooting</li>
+<li><a class="" href="preanalytical-analytical-postanalytical.html">Preanalytical, Analytical, Postanalytical</a></li>
+<li><a class="" href="quality-control.html">Quality Control</a></li>
+<li><a class="" href="point-of-care-testing.html">Point-of-Care Testing</a></li>
+<li><a class="" href="compliance.html">Compliance</a></li>
+<li><a class="" href="regulation.html">Regulation</a></li>
+<li class="book-part">Safety</li>
+<li><a class="" href="programs-practices.html">Programs &amp; Practices</a></li>
+<li><a class="" href="infection-prevention.html">Infection Prevention</a></li>
+<li><a class="" href="use-of-ppe.html">Use of PPE</a></li>
+<li><a class="" href="safe-work-practices.html">Safe Work Practices</a></li>
+<li><a class="" href="packaging-transportation.html">Packaging &amp; Transportation</a></li>
+<li><a class="" href="safety-data-sheets.html">Safety Data Sheets</a></li>
+<li><a class="" href="emergency-procedures.html">Emergency Procedures</a></li>
+<li class="book-part">Lab Math</li>
+<li><a class="" href="concentration-volume-dilutions.html">Concentration, Volume, &amp; Dilutions</a></li>
+<li><a class="" href="molarity-normality.html">Molarity &amp; Normality</a></li>
+<li><a class="" href="standard-curves.html">Standard Curves</a></li>
+<li><a class="active" href="mean-median-mode-confidence-intervals.html">Mean, Median, Mode, &amp; Confidence Intervals</a></li>
+<li><a class="" href="sensitivity-specificity-predictive-values.html">Sensitivity, Specificity, &amp; Predictive Values</a></li>
+<li class="book-part">Man/Auto Methods &amp; Instruments</li>
+<li><a class="" href="basic-lab-equipment.html">Basic Lab Equipment</a></li>
+<li><a class="" href="spectrophotometry-photometry.html">Spectrophotometry &amp; Photometry</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="osmometry.html">Osmometry</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="chromatography.html">Chromatography</a></li>
+<li><a class="" href="electrochemistry.html">Electrochemistry</a></li>
+<li><a class="" href="fluorometry.html">Fluorometry</a></li>
+<li><a class="" href="nephelometry.html">Nephelometry</a></li>
+<li><a class="" href="flow-cytometry.html">Flow Cytometry</a></li>
+<li><a class="" href="molecular-methods.html">Molecular Methods</a></li>
+<li><a class="" href="automated-microbiology-processors.html">Automated Microbiology Processors</a></li>
+<li><a class="" href="hematology-instrumentation.html">Hematology Instrumentation</a></li>
+<li class="book-part">Basic Management</li>
+<li><a class="" href="principles.html">Principles</a></li>
+<li class="book-part">Education</li>
+<li><a class="" href="principles-1.html">Principles</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="mean-median-mode-confidence-intervals" class="section level1 unnumbered">
+<h1>Mean, Median, Mode, &amp; Confidence Intervals<a class="anchor" aria-label="anchor" href="#mean-median-mode-confidence-intervals"><i class="fas fa-link"></i></a>
+</h1>
+<p>Alright, let’s pull our lab coats on and talk about statistics. And before you start having flashbacks to a tough math class, let me reframe this for you. These concepts—mean, median, mode, and confidence intervals—are not abstract theory. They are the <strong>diagnostic tools</strong> we use to evaluate the health and performance of our <em>own data</em>. Every time we run a batch of Quality Control, we generate a set of numbers. These statistical tools are how we take that pile of numbers and make it tell us a story: “Is our instrument behaving today? Is it precise? Is it accurate? And how confident are we in that assessment?”</p>
+<p>Think of it like target practice. A single shot doesn’t tell you much. But a group of 20 shots tells you a story about your aim. That’s what we’re doing here</p>
+<div id="center-of-the-target-measures-of-central-tendency" class="section level2 unnumbered">
+<h2>
+<strong>Center of the Target: Measures of Central Tendency</strong><a class="anchor" aria-label="anchor" href="#center-of-the-target-measures-of-central-tendency"><i class="fas fa-link"></i></a>
+</h2>
+<p>The first thing we want to know about our group of shots is, “Where did they cluster?” These are the measures of central tendency. They give us a single value that represents the “typical” or “middle” result of our data set</p>
+<ul>
+<li>
+<p><strong>Mean (Average): The Workhorse</strong>
+The mean is the one we all know and love. You calculate it by adding up all your data points and dividing by the number of points. In the lab, we use the mean constantly to determine the central point of our QC data over time. It is the heart of our Levey-Jennings chart</p>
+<ul>
+<li>
+<strong>Strength:</strong> It uses every single piece of data, giving a complete picture</li>
+<li>
+<strong>Crucial Weakness:</strong> The mean is extremely sensitive to <strong>outliers</strong>. Imagine you have QC results of 20, 21, 20, 22, and then a single “flyer” at 45 because of a random bubble. That single high value will pull the mean significantly upward, making it a poor representation of where the instrument is <em>truly</em> running</li>
+</ul>
+</li>
+<li>
+<p><strong>Median: The Outlier-Resistant Hero</strong>
+The median is simply the middle value of a data set after you’ve arranged all the numbers in order from lowest to highest. If you have an even number of data points, it’s the average of the two middle numbers</p>
+<ul>
+<li>
+<strong>Strength:</strong> The median’s superpower is its resistance to outliers. In that same data set (20, 20, 21, 22, 45), the median is 21. It completely ignores the “flyer” and gives you a much better sense of the true central tendency of the data. This is why the median is sometimes a better indicator of an instrument’s performance if you have a few wacky results</li>
+<li>
+<strong>Weakness:</strong> It doesn’t use all the information in the data set, so it can be less statistically powerful than the mean if the data is clean and symmetrical</li>
+</ul>
+</li>
+<li><p><strong>Mode: The Most Frequent</strong>
+The mode is the value that appears most often in a data set. A data set can have one mode, more than one mode, or no mode at all. While less common for analyzing continuous quantitative data in the lab, it can be useful in certain situations, like identifying the most common error code generated by an analyzer</p></li>
+</ul>
+</div>
+<div id="spread-of-the-shots-measures-of-dispersion" class="section level2 unnumbered">
+<h2>
+<strong>Spread of the Shots: Measures of Dispersion</strong><a class="anchor" aria-label="anchor" href="#spread-of-the-shots-measures-of-dispersion"><i class="fas fa-link"></i></a>
+</h2>
+<p>Knowing the center of our target is only half the story. Are all our shots clustered tightly around the bullseye (high precision), or are they scattered all over the target (low precision)? This is measured by the <strong>Standard Deviation (SD)</strong></p>
+<p>The <strong>Standard Deviation</strong> is the single most important statistic for Quality Control. It is a measure of the average distance of each data point from the mean</p>
+<ul>
+<li>A <strong>small SD</strong> is what we want. It means our data points are all tightly packed together, indicating our method is very <strong>precise</strong>
+</li>
+<li>A <strong>large SD</strong> is bad. It means our data is widely scattered, indicating our method is <strong>imprecise</strong> or has a lot of random error</li>
+</ul>
+<p>The SD is the magic behind the lines on our Levey-Jennings charts. For data that follows a normal, “bell-shaped” curve (<strong>Normal Distribution</strong>), we know that:
+* ~68% of all data points will fall within <strong>± 1 SD</strong> of the mean
+* ~95% of all data points will fall within <strong>± 2 SD</strong> of the mean
+* ~99.7% of all data points will fall within <strong>± 3 SD</strong> of the mean
+This is why our QC warning limits are set at ±2 SD and our rejection limits are at ±3 SD. It’s all based on the statistical probability of a random point falling that far from the mean</p>
+</div>
+<div id="how-sure-are-we-confidence-intervals" class="section level2 unnumbered">
+<h2>
+<strong>How Sure Are We?: Confidence Intervals</strong><a class="anchor" aria-label="anchor" href="#how-sure-are-we-confidence-intervals"><i class="fas fa-link"></i></a>
+</h2>
+<p>This is a more advanced concept, but it’s critical. When we calculate a mean from a sample of data (e.g., 20 QC runs), that mean is only an <em>estimate</em> of the “true” mean we would get if we could run the QC a million times. The Confidence Interval (CI) puts a range around our calculated mean and says, “We are X% confident that the <em>true</em> mean of the population lies within this range.”</p>
+<p>A <strong>95% Confidence Interval</strong> is the most common. If we calculate a 95% CI for our QC mean, we are stating that we are 95% sure that the true, long-term mean of our instrument falls somewhere between the lower and upper bound of that interval</p>
+<p>What does this tell us?</p>
+<ul>
+<li>A <strong>narrow CI</strong> is good. It means our estimate of the mean is very precise, usually because we have a large sample size and a small standard deviation</li>
+<li>A <strong>wide CI</strong> is a sign of uncertainty. It means our estimate of the mean is fuzzy, likely due to a small sample size or a lot of scatter (high SD) in our data</li>
+</ul>
+<p>We use this concept when validating a new instrument or a new lot of controls. We run the control many times, calculate our lab’s mean and its 95% CI, and then check if the manufacturer’s stated mean falls within our interval. If it does, we can be confident that our instrument is performing consistently with others. If it doesn’t, it’s a red flag that our system may have a bias</p>
+</div>
+<div id="key-terms-14" class="section level2 unnumbered">
+<h2>
+<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-14"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Mean:</strong> The arithmetic average of a data set, calculated by summing the values and dividing by the number of values. It is sensitive to outliers</li>
+<li>
+<strong>Median:</strong> The middle value in a data set that has been arranged in numerical order. It is resistant to the effects of outliers</li>
+<li>
+<strong>Standard Deviation (SD):</strong> The most common measure of the dispersion or precision of a data set; it represents the average distance of each data point from the mean</li>
+<li>
+<strong>Normal Distribution:</strong> A theoretical data distribution that, when plotted, creates a symmetrical, bell-shaped curve where the mean, median, and mode are all equal</li>
+<li>
+<strong>Confidence Interval (CI):</strong> A calculated range of values that is likely to contain the true population parameter (such as the true mean) with a certain level of confidence (e.g., 95%)</li>
+<li>
+<strong>Outlier:</strong> A data point that is abnormally distant from the other values in a data set. It can significantly affect the mean but has little effect on the median</li>
+<li>
+<strong>Central Tendency:</strong> A measure that represents the typical or “central” value of a data set. The mean, median, and mode are all measures of central tendency</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="standard-curves.html">Standard Curves</a></div>
+<div class="next"><a href="sensitivity-specificity-predictive-values.html">Sensitivity, Specificity, &amp; Predictive Values</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#mean-median-mode-confidence-intervals">Mean, Median, Mode, &amp; Confidence Intervals</a></li>
+<li><a class="nav-link" href="#center-of-the-target-measures-of-central-tendency">Center of the Target: Measures of Central Tendency</a></li>
+<li><a class="nav-link" href="#spread-of-the-shots-measures-of-dispersion">Spread of the Shots: Measures of Dispersion</a></li>
+<li><a class="nav-link" href="#how-sure-are-we-confidence-intervals">How Sure Are We?: Confidence Intervals</a></li>
+<li><a class="nav-link" href="#key-terms-14">Key Terms</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/01-C-03.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/01-C-03.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+</body>
+</html>

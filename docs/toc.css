@@ -1,0 +1,35 @@
+.book-toc > li:nth-child(2),
+.book-toc > li:nth-child(3),
+.book-toc > li:nth-child(5),
+.book-toc > li:nth-child(14),
+.book-toc > li:nth-child(15),
+.book-toc > li:nth-child(16),
+.book-toc > li:nth-child(17),
+.book-toc > li:nth-child(18) {
+  padding-left: 10px;
+}
+.book-toc > li:nth-child(6),
+.book-toc > li:nth-child(12),
+.book-toc > li:nth-child(20),
+.book-toc > li:nth-child(26),
+.book-toc > li:nth-child(40) {
+  position: sticky;
+  top: 2.3rem;
+  background: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  z-index: 1;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+
+
+@media (max-width: 991.98px) {
+  .book-toc > li:nth-child(3),
+  .book-toc > li:nth-child(15),
+  .book-toc > li:nth-child(25) {
+    top: unset;
+  }
+}

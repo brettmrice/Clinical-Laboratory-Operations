@@ -1,0 +1,80 @@
+# Molarity & Normality {-}
+
+Let's move a little deeper into the world of lab math. We've mastered the practical kitchen chemistry of simple dilutions with **C1V1 = C2V2**. Now, we're going to put on our formal chemist hats and talk about two more precise, and frankly, more powerful ways to express concentration: **Molarity** and **Normality**
+
+I know these terms can sound intimidating, like something from a chemistry class you'd rather forget. But here's the secret: it's still just about counting. When we use concentrations like mg/dL, we're talking about *mass*. When we use Molarity and Normality, we're talking about the *number of active molecules*. Why does this matter? Because chemical reactions don't care about mass; they care about how many molecules are available to react. Molarity and Normality are the language of chemical reactions
+
+## **The Big Idea: Counting by Weight** {-}
+
+Imagine I asked you to give me 1,000,000 grains of rice. You wouldn't count them one by one. Instead, you'd figure out how much one grain of rice weighs, multiply that by a million, and then just weigh out the correct total mass. This is exactly what chemists do with atoms and molecules using a concept called the **mole**. A mole is just a specific, giant number (6.022 x 10^23) that we use as a counting unit, like a "dozen" is a counting unit for eggs. The **molecular weight (MW)** of a chemical, expressed in grams, is the mass of exactly one mole of that substance. This is our bridge from a mass we can weigh on a scale to a number of molecules we can use in a reaction
+
+## **Molarity (M): The Workhorse of the Lab** {-}
+
+Molarity is the most common and fundamental way to express molar concentration. It is defined simply as:
+
+**Moles of solute per liter of solution (mol/L)**
+
+A one molar (1 M) solution contains exactly one mole of a substance dissolved in enough solvent to make a final volume of one liter. Molarity is all about the total number of molecules in a given space
+
+### **How to Make a Molar Solution** {-}
+
+Let's make a 1 M solution of our favorite simple chemical, sodium chloride (NaCl), which is just table salt
+
+1.  **Find the Molecular Weight (MW)** First, we need to know the mass of one mole of NaCl. We look at the periodic table:
+    *   Sodium (Na) has an atomic weight of ~23 g/mol
+    *   Chlorine (Cl) has an atomic weight of ~35.5 g/mol
+    *   The molecular weight of NaCl is 23 + 35.5 = **58.5 g/mol**
+2.  **Make the Connection** This means that 58.5 grams of NaCl is exactly one mole of NaCl
+3.  **Prepare the Solution** To make a 1 M NaCl solution, you would carefully weigh out **58.5 grams** of NaCl, place it in a 1-liter volumetric flask, and then add deionized water up to the 1-liter mark. You have now created a solution that contains exactly one mole of NaCl per liter
+
+Just like with our previous calculations, the dilution formula works perfectly here, too: **M1V1 = M2V2**. If you needed to make a 0.5 M solution from your 1 M stock, you would use this exact formula
+
+## **Normality (N): A Measure of Reactive Power** {-}
+
+Normality is an older and less common unit, but you will still find it in certain procedures, especially acid-base titrations. If Molarity counts the *total number of molecules*, Normality counts the *total number of reactive groups*. It’s a measure of chemical potency
+
+Normality is defined as:
+
+**Number of equivalent weights of solute per liter of solution (Eq/L)**
+
+What on earth is an **equivalent weight (EW)**? It's the molecular weight divided by the **valence (n)**. The valence is the number of reacting units per molecule. For acids, this is the number of H+ ions it can donate. For bases, it's the number of OH- ions it can accept
+
+**Equivalent Weight (EW) = Molecular Weight (MW) / valence (n)**
+
+### **The Key Relationship** {-}
+
+There's a beautiful shortcut that makes this much easier. Since Normality is based on equivalent weights and Molarity is based on molecular weights, the relationship is simple:
+
+**Normality = Molarity x valence (n)**
+
+Let's look at sulfuric acid, H₂SO₄. One molecule of H₂SO₄ has **two** reactive H+ ions, so its valence (n) is 2
+
+*   A **1 M** solution of H₂SO₄ contains one mole of H₂SO₄ molecules per liter
+*   A **1 N** solution of H₂SO₄ is actually a **0.5 M** solution, because each molecule has twice the reactive power. So, you only need half as many molecules to get the same reactive punch
+*   Therefore, a **1 M** solution of H₂SO₄ is a **2 N** solution (Normality = 1 M x 2)
+
+### **How to Make a Normal Solution** {-}
+
+Let's make 1 liter of a 1 N solution of H₂SO₄
+
+1.  **Find the Molecular Weight (MW)**
+    *   H = 1 (x2) = 2
+    *   S = 32
+    *   O = 16 (x4) = 64
+    *   MW of H₂SO₄ = 2 + 32 + 64 = **98 g/mol**
+2.  **Determine the Valence (n)** H₂SO₄ has **two** hydrogen ions, so n = 2
+3.  **Calculate the Equivalent Weight (EW)**
+    *   EW = MW / n = 98 g / 2 = **49 grams**
+4.  **Prepare the Solution** To make a 1 N H₂SO₄ solution, you would measure out **49 grams** of H₂SO₄ and add it to enough water to make a final volume of one liter. Compare that to the **98 grams** you would need to make a 1 M solution!
+
+In summary, Molarity is about the number of particles. Normality is about the reactive strength of those particles. For any substance where one molecule has only one reactive group (like HCl or NaOH), its valence is 1, and therefore its Molarity and Normality are identical. For anything else, you must account for its valence to convert between the two
+
+## **Key Terms** {-}
+
+*   **Mole:** A fundamental unit of measurement in chemistry representing a specific quantity of a substance, equal to Avogadro's number (6.022 x 10²³) of particles
+*   **Molarity (M):** A common unit of concentration defined as the number of moles of solute per liter of solution (mol/L)
+*   **Normality (N):** A unit of concentration defined as the number of equivalent weights of solute per liter of solution (Eq/L), representing the solution's reactive capacity
+*   **Molecular Weight (MW):** The sum of the atomic weights of all atoms in a molecule. The mass of one mole of a substance is equal to its molecular weight expressed in grams
+*   **Equivalent Weight (EW):** The mass of a substance that will combine with or replace one mole of hydrogen. It is calculated by dividing the molecular weight by the valence (MW/n)
+*   **Valence (n):** An integer representing the number of reacting units in one molecule of a substance (e.g., for an acid, the number of H+ ions it can donate)
+*   **Avogadro's Number:** The number of constituent particles (such as atoms or molecules) in one mole of a substance, approximately 6.022 x 10²³

@@ -1,0 +1,60 @@
+# (PART\*) Quality Assessment & Troubleshooting {-}
+
+# Preanalytical, Analytical, Postanalytical {-}
+
+Quality Assessment isn't just about running controls and checking boxes. It's the entire philosophy that ensures the numbers we produce are not just numbers, but are accurate, reliable, and meaningful data that a physician can use to save a life
+
+Think of a patient's sample as a message in a bottle. It starts with the patient, travels to us in the lab, we decode its message, and then we send that decoded message to the physician. Quality assessment is the comprehensive system we build to protect that message at every single step of its journey. Any breakdown in the process can corrupt the message, leading to a misdiagnosis, improper treatment, or worse. This journey is universally broken down into three phases: the **Preanalytical**, the **Analytical**, and the **Postanalytical.** Let's walk through them
+
+## **Preanalytical Phase: Garbage In, Garbage Out** {-}
+
+This is, without a doubt, the most important phase to understand because it's where the vast majority of laboratory errors—upwards of 70%—occur. The preanalytical phase includes everything that happens to a sample *before* it gets to our analyzers for testing. You could have the most perfectly calibrated, state-of-the-art instrument in the world, but if the sample you put on it is compromised, the result is worthless. This is the origin of the most sacred mantra in the lab: "Garbage In, Garbage Out."
+
+Think of it like being a chef. The preanalytical phase is everything that happens before you start cooking. It's the waiter taking the correct order, the supplier delivering fresh ingredients, and you, the chef, choosing the right pots and pans. If the waiter writes down "fish" when the customer ordered "steak," it doesn't matter how well you cook that fish; the outcome is wrong
+
+### **Common Preanalytical Variables and Potential Errors** {-}
+
+*   **Patient Identification:** The cardinal sin of the lab is the patient misidentification. Two-factor authentication (e.g., name and date of birth) at the time of collection is non-negotiable. An error here is a catastrophic failure
+*   **Test Ordering:** A physician's order may be entered into the system incorrectly. A classic transcription error might be ordering a "CMP" (Comprehensive Metabolic Panel) instead of a "BMP" (Basic Metabolic Panel)
+*   **Specimen Collection:** This is a huge source of error. Was the tourniquet on for too long (>1 minute), causing hemoconcentration? Was the blood drawn from an arm with an IV line, diluting the sample or contaminating it with IV fluids? Was the tube under-filled, altering the critical blood-to-additive ratio? Was the skin properly cleaned for a blood culture?
+*   **Specimen Container and Additive:** This is why we have a rainbow of tube top colors! Drawing blood for a potassium level in a purple top (EDTA) tube is a disaster, as the EDTA salt is a potassium salt, leading to a falsely, and critically, high result
+*   **Specimen Transport:** Some analytes are sensitive to temperature (e.g., cryoglobulins must be kept warm) or light (e.g., bilirubin must be protected from light). Delays in transport can cause analytes like glucose to be falsely decreased as cells metabolize it, or potassium to be falsely increased as it leaks from red cells
+*   **Specimen Processing:** Was the sample centrifuged at the correct speed and for the correct amount of time? An improperly centrifuged sample can leave platelets in the plasma, interfering with certain chemistry assays. Was the sample properly aliquoted and labeled?
+
+## **Analytical Phase: The Main Event** {-}
+
+This is the phase we tend to think of as "the work" of the lab. The analytical phase is the actual testing of the sample. It begins when the sample is introduced to the analyzer and ends when a result is generated. While fewer errors occur here than in the preanalytical phase, they can be systemic and affect a large number of patient results, so our vigilance has to be incredibly high
+
+Continuing our chef analogy, this is the cooking itself. You're following the recipe, using an oven that is calibrated to the right temperature, and using timers to ensure everything cooks for the right amount of time. Your Quality Control is like you tasting the sauce before you put it on the plate to make sure it's perfect
+
+### **Common Analytical Variables and Troubleshooting** {-}
+
+*   **Instrumentation:** Analyzers are complex machines. We must ensure they are properly maintained and calibrated. A drift in calibration can cause all patient results to be slightly too high or too low. We troubleshoot issues like reagent carryover, sampling errors (e.g., a clot in the probe), or failing light sources
+*   **Reagents:** We must use reagents that have been stored correctly and are not expired. Lot-to-lot variation is also a concern; whenever we open a new lot number of reagents or calibrators, we must verify that it performs comparably to the old lot
+*   **Quality Control (QC):** This is the heart of analytical quality. We run patient-like materials with known values (our controls) to verify that the entire analytical system—the instrument, the reagents, and the procedure—is working correctly *before* we test patient samples
+    *   **When QC Fails:** This is where we become detectives. We use tools like **Levey-Jennings charts** and **Westgard Rules** to detect random or systematic errors. The first step is simple: just re-run the control. If it fails again, we must hold all patient results and begin troubleshooting. Is it a bad vial of control? A bad reagent pack? Does the instrument need maintenance or recalibration? We do not release any patient data until our QC is acceptable
+
+## **Postanalytical Phase: The Last Mile** {-}
+
+So, the test is done and the analyzer has produced a result. We're finished, right? Absolutely not. The postanalytical phase covers everything that happens *after* the result is generated. This phase is about ensuring the right result gets to the right place for the right patient in a timely and understandable manner. An error here can be just as damaging as any other
+
+Back to our restaurant: the chef cooked the meal perfectly. But now, the waiter has to deliver the right plate to the right customer at the right table without spilling it. They also need to deliver the correct bill at the end. A mistake here ruins the entire experience
+
+### **Common Postanalytical Variables and Potential Errors** {-}
+
+*   **Data Entry and Transcription:** While most results are now electronically transferred from analyzers to the Laboratory Information System (LIS), manual entries still exist. A simple typo can change a glucose of "120" to "210."
+*   **Result Review:** This is a core MLS responsibility. We don't just let numbers fly out the door. We perform a "common sense" check. Does this result make physiological sense? We also perform a **delta check**, comparing the patient's current result to their previous results. A sudden, drastic change that isn't clinically explained is a major red flag that something might be wrong with the sample (preanalytical error) or the test (analytical error)
+*   **Critical Value Reporting:** Every lab has a list of "critical" or "panic" values—results that are so abnormal they represent a life-threatening state. These must be communicated by phone directly to a member of the patient's healthcare team immediately. We must "read back" the results to confirm correct communication and document this exchange thoroughly
+*   **Reference Ranges:** The result itself is meaningless without context. We must ensure the correct reference (or "normal") range is reported alongside the patient's result, accounting for factors like age and sex. A hemoglobin of 13.0 g/dL is normal for an adult female but critically low for a 2-day-old infant
+
+In summary, quality assessment is a continuous loop. Information from the postanalytical phase (like a delta check failure) often sends us right back to investigate a potential preanalytical problem. It's a dynamic, ever-present part of our job, and mastering it is what makes us true Medical Laboratory Scientists
+
+## **Key Terms** {-}
+
+*   **Preanalytical Variable:** Any factor that can affect a patient sample before it is analyzed, including patient identification, specimen collection technique, transport conditions, and processing steps. It is the most common source of laboratory error
+*   **Quality Control (QC):** The process of analyzing materials with known concentrations of an analyte to verify that the analytical system is functioning correctly and providing accurate results. It is a real-time check on the performance of an assay
+*   **Westgard Rules:** A set of statistical rules used with Levey-Jennings charts to evaluate Quality Control data. These rules help determine if an analytical run is "in control" or if it should be rejected due to random or systematic errors
+*   **Delta Check:** A postanalytical quality control process where a patient's current laboratory result is compared to their previously reported results. A significant, unexpected change triggers an investigation for potential preanalytical or analytical error
+*   **Critical Value:** A laboratory result that indicates a life-threatening state for the patient. Such results require immediate verbal notification to a member of the healthcare team according to a specific, documented protocol
+*   **Proficiency Testing (PT):** An external quality assessment program where a laboratory analyzes "blind" samples sent from a regulatory agency or provider and submits its results for evaluation. It is a crucial measure of a lab's long-term accuracy compared to its peers
+*   **Reference Range:** The range of values for a physiological measurement expected in a healthy population. It provides context for interpreting a patient's result and is often specific to factors like age and sex. Also known as a "normal range" or "reference interval."

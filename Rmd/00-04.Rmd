@@ -1,0 +1,21 @@
+# Reading List {-}
+
+Source: <a href="https://www.ascp.org/content/board-of-certification/get-credentialed#" target="_blank">MB(ASCP) and SMB(ASCP) Certifications > Applicant Resources > Reading List</a>
+
+ASCP makes it clear that their suggested reading/reference list for the Technologist in Molecular Biology, MB(ASCP), and the Specialist in Molecular Biology, SMB(ASCP), certification exams "is intended only as a partial reference source". The suggested reading/reference list below was last revised on ASCP's website January 2025
+
+
+## **Journals** {-}
+*   <a href="https://clsjournal.ascls.org/" target="_blank">Clinical Laboratory Science.</a> Published by American Society for Clinical Laboratory Science.
+*   <a href="academic.oup.com/labmed" target="_blank">Laboratory Medicine.</a> Published by Oxford University Press.
+*   <a href="https://www.mlo-online.com/" target="_blank">Medical Laboratory Observer.</a> Published by Endeavor Business Media, LLC.
+
+
+## **Texts** {-}
+
+### **Laboratory Operations** {-}
+Buckingham, L. (2019). Molecular Diagnostics: Fundamentals, Methods, & Clinical Applications (3 rd ed.). Philadelphia: F.A. Davis Company.
+Davis, D.L. (2016). Laboratory Safety: A Self-Assessment Workbook (2 nd ed.) Chicago: ASCP Press.
+Doucette, L.J. (2021). Mathematics for the Clinical Laboratory (4 th ed.) St. Louis, MO: Elsevier.
+McPherson, R.A. & Pincus, M.R. (2021). Henry’s Clinical Diagnosis and Management by Laboratory Methods (24 th ed.). Philadelphia: Elsevier.
+Turgeon, M.L. (2022). Clinical Laboratory Science: Concepts, Procedures, and Clinical Applications (9 th ed.). St. Louis, MO: Elsevier.

@@ -1,0 +1,65 @@
+# Infection Prevention {-}
+
+Let's switch gears and talk about something that is, without exaggeration, a matter of life and death for us in the laboratory: protecting ourselves from the invisible dangers within the samples we handle every day. This isn't just about following rules written in a dusty binder; this is about building a shield of awareness and practice that ensures you go home to your family just as healthy as when you came in. The cornerstone of this shield is the **OSHA Bloodborne Pathogen (BBP) Standard**, a federal law that dictates how we must protect ourselves from microorganisms in human blood and other body fluids that can cause diseases like Hepatitis B (HBV), Hepatitis C (HCV), and Human Immunodeficiency Virus (HIV)
+
+The entire philosophy of BBP safety can be boiled down to one simple, non-negotiable principle that you must embed into your very core as a laboratory professional. It is called **Standard Precautions**
+
+## **Golden Rule: Standard Precautions** {-}
+
+The principle of Standard Precautions is the foundation upon which everything else is built. It mandates that we must treat **all human blood, body fluids, non-intact skin, and mucous membranes as if they are known to be infectious for HIV, HBV, and other bloodborne pathogens.**
+
+Think about that for a second. It doesn't matter if the sample is from a healthy-looking outpatient or a critically ill patient in the ICU. It doesn't matter what the diagnosis is or isn't. The moment you walk into the lab, you adopt a mindset that *every single tube, slide, or swab is potentially infectious.* This eliminates guesswork and ensures you are always protected to the highest degree. Standard Precautions is our universal force field
+
+## **Breaking the Chain of Infection** {-}
+
+To prevent an infection, you have to break the "Chain of Infection" at some point. The lab is a perfect environment for this chain (Source -> Transmission -> Host), so we must actively build barriers at every link. Our safety program is designed to do just that through a multi-layered approach
+
+### **Layer 1: Engineering Controls - Designing Safety In** {-}
+
+The best way to stay safe is to design the danger out of the process in the first place. Engineering controls are physical devices or equipment that isolate or remove the hazard from the employee. They are the preferred first line of defense because they work passively, without you having to think about them
+
+*   **Sharps Containers:** The most obvious example. These are rigid, puncture-resistant, leak-proof containers for disposing of all needles, lancets, and other contaminated sharp objects. You will find them everywhere in a clinical setting
+*   **Safety-Engineered Sharps:** Needles that have a built-in safety feature, such as a retracting needle or a hinged shield that you click into place immediately after use. These are designed to make accidental needlesticks nearly impossible
+*   **Biological Safety Cabinets (BSCs):** These ventilated enclosures are used in microbiology to handle specimens that may be aerosolized, protecting the user from inhaling infectious droplets
+*   **Plexiglass Shields:** Often used at specimen processing stations to protect the face from splashes during uncapping of tubes
+
+### **Layer 2: Work Practice Controls - Behaving Safely** {-}
+
+This layer is all about you and your habits. Work practice controls are the procedures and behaviors we adopt to reduce the likelihood of an exposure. They are the rules of the road for working in the lab
+
+*   **Hand Hygiene:** This is the single most important and effective way to prevent the spread of infection. You must wash your hands with soap and water or use an alcohol-based hand sanitizer after removing gloves, before leaving the lab, and any time they are contaminated
+*   **No Recapping of Needles:** Never, ever recap a used needle using two hands. If you absolutely must recap, the "one-handed scoop" method is the only acceptable technique. Better yet, just don't do it. Immediately dispose of the entire assembly in a sharps container
+*   **Minimizing Splashes and Aerosols:** We are trained to uncap tubes carefully, avoid forcefully mixing samples, and cover centrifuge tubes with caps or a safety shield to prevent the creation of invisible, infectious mists
+*   **No Eating, Drinking, Smoking, or Applying Cosmetics:** The laboratory work area is a "clean hands" zone only. These activities are strictly prohibited because they create an easy route for a pathogen to get from a contaminated hand to your mouth
+
+### **Layer 3: Personal Protective Equipment (PPE) - Your Body Armor** {-}
+
+This is your last line of defense. When engineering and work practice controls can't eliminate all risk, you wear PPE. It is a physical barrier between you and the microorganism. The key to PPE is using the right equipment for the task and using it correctly
+
+*   **Gloves:** Must be worn any time you anticipate touching blood, body fluids, or contaminated surfaces. You must change your gloves between patients and whenever they become torn or heavily soiled
+*   **Fluid-Resistant Laboratory Coats:** Must be worn at all times in the lab. They protect your skin and clothing from splashes. Crucially, lab coats are *never* to be worn outside the laboratory—not to the breakroom, not to the cafeteria, not in the elevator
+*   **Face Protection:** Goggles, face shields, and masks are used whenever there is a risk of a splash or spray to your eyes, nose, or mouth. Uncapping specimens or pouring off aliquots are prime examples of when face protection is required
+
+## **The Hepatitis B Vaccine: A Free Shot of Armor** {-}
+
+Because Hepatitis B is such a virulent and hardy virus, the OSHA BBP Standard mandates that all employers must offer the Hepatitis B vaccination series to any employee with potential occupational exposure, completely free of charge. You have the right to decline the vaccine, but you will be required to sign a formal declination statement. This vaccine is one of the most effective tools we have in our safety arsenal
+
+## **Post-Exposure Plan: What to Do When Something Goes Wrong** {-}
+
+Even with the best systems, accidents happen. A needle pokes through a glove, a tube splashes into your eye. Every facility must have a clear, confidential **Post-Exposure Control Plan**. If you have an exposure, you must:
+
+1.  **IMMEDIATELY** wash the needlestick or cut with soap and water, or flush the splash to the nose, mouth, or skin with copious amounts of water
+2.  **REPORT** the incident to your supervisor immediately. This is not the time to be scared or embarrassed; this is a medical emergency
+3.  **SEEK** immediate medical evaluation at Employee Health or the Emergency Department. They will follow a specific protocol that may include baseline testing, evaluation of the source patient (if known), and administration of **Post-Exposure Prophylaxis (PEP)** to prevent infection
+
+This multi-layered approach—combining smart design, safe behaviors, personal armor, and a robust vaccination and post-exposure plan—is what allows us to work safely and confidently with potentially hazardous materials every single day
+
+## **Key Terms** {-}
+
+*   **Bloodborne Pathogen (BBP):** Pathogenic microorganisms present in human blood that can cause disease, such as Hepatitis B Virus (HBV), Hepatitis C Virus (HCV), and Human Immunodeficiency Virus (HIV)
+*   **Standard Precautions:** The foundational safety principle of treating all human blood and certain body fluids as if they are known to be infectious for bloodborne pathogens
+*   **OSHA (Occupational Safety and Health Administration):** The U.S. federal agency responsible for creating and enforcing workplace safety and health standards, including the Bloodborne Pathogen Standard
+*   **Engineering Controls:** Safety devices or equipment that are designed to isolate or remove a hazard from the workplace, such as sharps containers and biological safety cabinets
+*   **Work Practice Controls:** Procedures and behaviors adopted by employees to reduce the risk of exposure, such as proper hand hygiene and the "no recapping" rule for needles
+*   **Personal Protective Equipment (PPE):** Specialized clothing or equipment worn by an employee for protection against a hazard, including gloves, lab coats, and face shields
+*   **Post-Exposure Prophylaxis (PEP):** Preventive medical treatment, such as antiviral medications, started immediately after an exposure to a pathogen in order to prevent infection from occurring

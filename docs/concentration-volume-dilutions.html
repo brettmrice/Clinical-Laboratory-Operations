@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Concentration, Volume, &amp; Dilutions | LO</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="Laboratory Mathematics is the bedrock of almost everything we do at the bench. I know, I know — the word “math” can sometimes trigger a bit of anxiety, but I want you to reframe that. Don’t think...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Concentration, Volume, &amp; Dilutions | LO">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Laboratory Mathematics is the bedrock of almost everything we do at the bench. I know, I know — the word “math” can sometimes trigger a bit of anxiety, but I want you to reframe that. Don’t think...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Concentration, Volume, &amp; Dilutions | LO">
+<meta name="twitter:description" content="Laboratory Mathematics is the bedrock of almost everything we do at the bench. I know, I know — the word “math” can sometimes trigger a bit of anxiety, but I want you to reframe that. Don’t think...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Quality Assessment &amp; Troubleshooting</li>
+<li><a class="" href="preanalytical-analytical-postanalytical.html">Preanalytical, Analytical, Postanalytical</a></li>
+<li><a class="" href="quality-control.html">Quality Control</a></li>
+<li><a class="" href="point-of-care-testing.html">Point-of-Care Testing</a></li>
+<li><a class="" href="compliance.html">Compliance</a></li>
+<li><a class="" href="regulation.html">Regulation</a></li>
+<li class="book-part">Safety</li>
+<li><a class="" href="programs-practices.html">Programs &amp; Practices</a></li>
+<li><a class="" href="infection-prevention.html">Infection Prevention</a></li>
+<li><a class="" href="use-of-ppe.html">Use of PPE</a></li>
+<li><a class="" href="safe-work-practices.html">Safe Work Practices</a></li>
+<li><a class="" href="packaging-transportation.html">Packaging &amp; Transportation</a></li>
+<li><a class="" href="safety-data-sheets.html">Safety Data Sheets</a></li>
+<li><a class="" href="emergency-procedures.html">Emergency Procedures</a></li>
+<li class="book-part">Lab Math</li>
+<li><a class="active" href="concentration-volume-dilutions.html">Concentration, Volume, &amp; Dilutions</a></li>
+<li><a class="" href="molarity-normality.html">Molarity &amp; Normality</a></li>
+<li><a class="" href="standard-curves.html">Standard Curves</a></li>
+<li><a class="" href="mean-median-mode-confidence-intervals.html">Mean, Median, Mode, &amp; Confidence Intervals</a></li>
+<li><a class="" href="sensitivity-specificity-predictive-values.html">Sensitivity, Specificity, &amp; Predictive Values</a></li>
+<li class="book-part">Man/Auto Methods &amp; Instruments</li>
+<li><a class="" href="basic-lab-equipment.html">Basic Lab Equipment</a></li>
+<li><a class="" href="spectrophotometry-photometry.html">Spectrophotometry &amp; Photometry</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="osmometry.html">Osmometry</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="chromatography.html">Chromatography</a></li>
+<li><a class="" href="electrochemistry.html">Electrochemistry</a></li>
+<li><a class="" href="fluorometry.html">Fluorometry</a></li>
+<li><a class="" href="nephelometry.html">Nephelometry</a></li>
+<li><a class="" href="flow-cytometry.html">Flow Cytometry</a></li>
+<li><a class="" href="molecular-methods.html">Molecular Methods</a></li>
+<li><a class="" href="automated-microbiology-processors.html">Automated Microbiology Processors</a></li>
+<li><a class="" href="hematology-instrumentation.html">Hematology Instrumentation</a></li>
+<li class="book-part">Basic Management</li>
+<li><a class="" href="principles.html">Principles</a></li>
+<li class="book-part">Education</li>
+<li><a class="" href="principles-1.html">Principles</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="concentration-volume-dilutions" class="section level1 unnumbered">
+<h1>Concentration, Volume, &amp; Dilutions<a class="anchor" aria-label="anchor" href="#concentration-volume-dilutions"><i class="fas fa-link"></i></a>
+</h1>
+<p><strong>Laboratory Mathematics</strong> is the bedrock of almost everything we do at the bench. I know, I know — the word “math” can sometimes trigger a bit of anxiety, but I want you to reframe that. Don’t think of this as abstract, complex calculus. Think of it as <strong>kitchen chemistry</strong>. It’s the same logic you’d use to make a pitcher of juice from concentrate or follow a recipe to bake a cake. It’s about ratios, proportions, and following instructions, and mastering it is one of the most powerful and practical skills in your arsenal</p>
+<p>At its core, lab math is about creating something we need (like a working control or a calibration standard) from something we have (a concentrated stock solution). It’s also about figuring out the true concentration of a patient sample that was too high for our instrument to read directly. This entire world revolves around three key players: Concentration, Volume, and Dilutions</p>
+<div id="core-concepts" class="section level2 unnumbered">
+<h2>
+<strong>Core Concepts</strong><a class="anchor" aria-label="anchor" href="#core-concepts"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Concentration:</strong> This is simply the “strength” of a solution. It’s the amount of one substance (the <strong>solute</strong>, like glucose) dissolved in a certain amount of another substance (the <strong>solvent</strong>, like water). We express concentration in many ways: mg/dL, g/L, moles/L (Molarity), or even as a percentage (%). Just remember, concentration always has two parts: an amount per a unit of space</li>
+<li>
+<strong>Volume:</strong> This is straightforward—it’s the amount of three-dimensional space a liquid occupies. In the lab, we live in a world of liters (L), milliliters (mL), and microliters (µL). Precision in measuring volume is everything</li>
+<li>
+<strong>Dilution:</strong> This is the process of making a solution <em>less concentrated</em>, usually by adding more solvent (we often call this the <strong>diluent</strong>). Why do we do this?
+<ul>
+<li>
+<strong>To create working solutions:</strong> We often buy reagents in a highly concentrated, stable stock form to save space and money. We then dilute them to a “working strength” for daily use</li>
+<li>
+<strong>To measure high patient samples:</strong> If a patient’s glucose is 900 mg/dL, our analyzer might only be able to accurately read up to 600 mg/dL. To get a result, we must perform a precise dilution (e.g., mix one part of the patient’s serum with one part of saline) to bring the concentration down into the instrument’s measurable range. Then, we use math to calculate the original, undiluted value</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="universal-formula-c1v1-c2v2" class="section level2 unnumbered">
+<h2>
+<strong>Universal Formula: C1V1 = C2V2</strong><a class="anchor" aria-label="anchor" href="#universal-formula-c1v1-c2v2"><i class="fas fa-link"></i></a>
+</h2>
+<p>This simple equation is your absolute best friend. It is the master key that unlocks almost every dilution problem you will ever face. It stands for:</p>
+<p><strong>(Initial Concentration) x (Initial Volume) = (Final Concentration) x (Final Volume)</strong></p>
+<p>Let’s break it down:</p>
+<ul>
+<li>
+<strong>C1:</strong> The concentration of your starting solution (your concentrated stock)</li>
+<li>
+<strong>V1:</strong> The volume of that starting solution you will need to take</li>
+<li>
+<strong>C2:</strong> The final, desired concentration of your new solution</li>
+<li>
+<strong>V2:</strong> The final, desired volume of your new solution</li>
+</ul>
+<p>You will almost always know three of these four values, and your job is to solve for the one unknown</p>
+<div id="a-classic-example-making-a-working-control" class="section level3 unnumbered">
+<h3>
+<strong>A Classic Example: Making a Working Control</strong><a class="anchor" aria-label="anchor" href="#a-classic-example-making-a-working-control"><i class="fas fa-link"></i></a>
+</h3>
+<p><strong>Problem</strong> You have a 1000 mg/dL glucose stock standard (this is your C1). You need to make 5 mL (your V2) of a 200 mg/dL working control (your C2). How much of the stock standard do you need to use (what is V1)?</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Write down what you know</strong>
+<ul>
+<li>C1 = 1000 mg/dL</li>
+<li>V1 = ??? (This is what we need to find)</li>
+<li>C2 = 200 mg/dL</li>
+<li>V2 = 5 mL</li>
+</ul>
+</li>
+<li>
+<strong>Set up the equation</strong>
+<ul>
+<li>C1V1 = C2V2</li>
+<li>(1000 mg/dL) * (V1) = (200 mg/dL) * (5 mL)</li>
+</ul>
+</li>
+<li>
+<strong>Solve for V1</strong>
+<ul>
+<li>First, simplify the right side: 200 * 5 = 1000</li>
+<li>(1000 mg/dL) * (V1) = 1000 mg/dL · mL</li>
+<li>Now, isolate V1 by dividing both sides by 1000 mg/dL:</li>
+<li>V1 = (1000 mg/dL · mL) / (1000 mg/dL)</li>
+<li><strong>V1 = 1 mL</strong></li>
+</ul>
+</li>
+<li>
+<strong>Translate back to a lab instruction</strong> The math tells you to take <strong>1 mL of your 1000 mg/dL stock solution</strong>. To get to your final volume of 5 mL, you will place that 1 mL into a flask and add <strong>4 mL of diluent</strong> (1 mL solute + 4 mL diluent = 5 mL total volume). And just like that, you’ve made your working control</li>
+</ol>
+</div>
+</div>
+<div id="understanding-dilution-ratios-and-factors" class="section level2 unnumbered">
+<h2>
+<strong>Understanding Dilution Ratios and Factors</strong><a class="anchor" aria-label="anchor" href="#understanding-dilution-ratios-and-factors"><i class="fas fa-link"></i></a>
+</h2>
+<p>This is the second critical piece of the puzzle, especially for calculating patient results</p>
+<p>A dilution is often expressed as a ratio, like <strong>1:10</strong> (read as “one in ten”). This is where the single most common student error occurs. A 1:10 dilution does <strong>NOT</strong> mean 1 part sample to 10 parts diluent. It means <strong>1 part sample in a TOTAL of 10 parts.</strong></p>
+<p>Therefore: <strong>1 part sample + 9 parts diluent = 1:10 dilution</strong></p>
+<p>The <strong>dilution factor</strong> is simply the reciprocal of the dilution ratio. For a 1:10 dilution, the dilution factor is 10. For a 1:2 dilution, the factor is 2</p>
+<div id="calculating-the-final-patient-result" class="section level3 unnumbered">
+<h3>
+<strong>Calculating the Final Patient Result</strong><a class="anchor" aria-label="anchor" href="#calculating-the-final-patient-result"><i class="fas fa-link"></i></a>
+</h3>
+<p>This is why we care about the dilution factor. Let’s go back to our high glucose patient</p>
+<ul>
+<li>The result was too high to read, so you made a <strong>1:2 dilution</strong> (1 part serum + 1 part saline)</li>
+<li>You run the diluted sample on the analyzer, and it now reads <strong>450 mg/dL</strong>
+</li>
+<li>Is that the patient’s result? No! That’s the result of the <em>diluted</em> sample</li>
+<li>To get the true result, you must multiply the instrument readout by the dilution factor</li>
+</ul>
+<p><strong>Instrument Result x Dilution Factor = True Patient Result</strong></p>
+<p>450 mg/dL x 2 = <strong>900 mg/dL</strong></p>
+<p>This is the final, correct result that you would report for that patient</p>
+</div>
+</div>
+<div id="serial-dilutions" class="section level2 unnumbered">
+<h2>
+<strong>Serial Dilutions</strong><a class="anchor" aria-label="anchor" href="#serial-dilutions"><i class="fas fa-link"></i></a>
+</h2>
+<p>A serial dilution is simply a series of dilutions where each new dilution is made from the previous one. They are very common in areas like serology for determining antibody titers. To find the final dilution of a tube in the series, you simply multiply the dilution factor of each preceding step</p>
+<ul>
+<li>
+<strong>Example:</strong> You make a 1:10 dilution in Tube 1. You then take from Tube 1 and make another 1:10 dilution in Tube 2. The dilution in Tube 2 is <em>not</em> 1:20. It is:
+<ul>
+<li>(1/10) x (1/10) = <strong>1/100 or 1:100</strong>
+</li>
+</ul>
+</li>
+</ul>
+<p>Mastering these calculations isn’t just about passing an exam; it’s about owning a fundamental skill of the laboratory that ensures accuracy, efficiency, and patient safety every single day</p>
+</div>
+<div id="key-terms-11" class="section level2 unnumbered">
+<h2>
+<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-11"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Concentration:</strong> The amount of a substance (solute) present in a given amount of another substance (solvent). It expresses the “strength” of a solution</li>
+<li>
+<strong>Dilution:</strong> The process of reducing the concentration of a solute in a solution, typically by mixing it with more solvent (diluent)</li>
+<li>
+<strong>Solute:</strong> The substance that is dissolved in a solution (e.g., the salt in saltwater)</li>
+<li>
+<strong>Solvent:</strong> The substance in which a solute is dissolved to form a solution (e.g., the water in saltwater)</li>
+<li>
+<strong>Diluent:</strong> The liquid used to perform a dilution. In many clinical applications, this is saline or deionized water</li>
+<li>
+<strong>Stock Solution:</strong> A highly concentrated solution that is stored and then diluted to a lower, “working” concentration for use</li>
+<li>
+<strong>Dilution Factor:</strong> The reciprocal of the dilution ratio, used to calculate the original concentration of a diluted sample. (e.g., for a 1:5 dilution, the dilution factor is 5)</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="emergency-procedures.html">Emergency Procedures</a></div>
+<div class="next"><a href="molarity-normality.html">Molarity &amp; Normality</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#concentration-volume-dilutions">Concentration, Volume, &amp; Dilutions</a></li>
+<li><a class="nav-link" href="#core-concepts">Core Concepts</a></li>
+<li>
+<a class="nav-link" href="#universal-formula-c1v1-c2v2">Universal Formula: C1V1 = C2V2</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#a-classic-example-making-a-working-control">A Classic Example: Making a Working Control</a></li></ul>
+</li>
+<li>
+<a class="nav-link" href="#understanding-dilution-ratios-and-factors">Understanding Dilution Ratios and Factors</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#calculating-the-final-patient-result">Calculating the Final Patient Result</a></li></ul>
+</li>
+<li><a class="nav-link" href="#serial-dilutions">Serial Dilutions</a></li>
+<li><a class="nav-link" href="#key-terms-11">Key Terms</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/01-C-00.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/01-C-00.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+</body>
+</html>

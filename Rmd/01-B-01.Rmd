@@ -1,0 +1,67 @@
+# Emergency Procedures {-}
+
+So far, our entire discussion of safety has been about *prevention*. We build shields of engineering controls, wear armor of PPE, and develop disciplined work practices, all with the goal of ensuring that an emergency never happens. But the defining feature of an emergency is that it is unplanned, unexpected, and requires immediate action. Our job is not only to prevent emergencies but also to be expertly prepared for the moment they occur
+
+Think of this as your "muscle memory" training for chaos. When an alarm sounds or a needle slips, there is no time to look up a procedure in a book. Your response must be immediate, correct, and almost automatic. This is achieved through understanding, training, and practicing the core emergency protocols for the most common—and most dangerous—scenarios we face: biological exposures and physical hazards like fire
+
+## **When the Shield Fails: Responding to Biological Exposures** {-}
+
+This is one of the most stressful events that can happen to a laboratory professional. A needlestick, a cut from a broken specimen tube, or a splash of blood to the eyes represents a direct breach of our defenses and a potential exposure to a bloodborne pathogen. In this moment, panic is the enemy. A clear, three-step action plan is your guide
+
+This plan is formally outlined in your facility's **Exposure Control Plan**, and you must know it by heart
+
+### **Step 1: DECONTAMINATE - Immediately!** {-}
+
+This is your absolute first priority, before you even think about anything else. The goal is to remove or inactivate the infectious material as quickly as humanly possible
+
+*   **For a Needlestick or Cut (Parenteral Exposure):** Don't squeeze the wound, as this can cause more tissue damage. Instead, immediately wash the area thoroughly with soap and running water for several minutes. The mechanical action of washing and the soap itself are your best first defense
+*   **For a Splash to the Eyes or Mucous Membranes (Nose/Mouth):** Do not rub your eyes! Go directly to an eyewash station. Hold your eyelids open and flush your eyes with a continuous stream of water for a minimum of 10-15 minutes. It will feel like an eternity, but this extended flushing is critical for washing the pathogen away from these highly absorbent tissues. If the splash was to your nose or mouth, flush with copious amounts of water as well
+
+### **Step 2: REPORT - Immediately!** {-}
+
+As soon as you have completed decontamination, you must report the incident to your immediate supervisor. This is not about getting in trouble; this is a critical step to initiate your medical care. Do not wait until the end of your shift. Do not be embarrassed. This is a medical emergency, and your health depends on rapid reporting to get the official post-exposure process started
+
+### **Step 3: SEEK MEDICAL EVALUATION - Immediately!** {-}
+
+Your supervisor will direct you to Employee Health Services or the Emergency Department for a confidential medical evaluation. This will involve:
+
+*   Documenting the incident
+*   Assessing your vaccination status (especially for Hepatitis B)
+*   Drawing your blood for baseline testing
+*   If the source patient is known and can be identified, their blood will be tested for HBV, HCV, and HIV (with appropriate consent when required by law)
+*   Based on the evaluation of the source patient and the type of exposure, you may be offered **Post-Exposure Prophylaxis (PEP)**, which is a course of medication designed to prevent an infection from taking hold. The effectiveness of PEP is highly time-dependent, which is why immediate action is so critical
+
+## **When the Environment Becomes the Enemy: Fire Safety** {-}
+
+A fire in a laboratory is uniquely dangerous because of the presence of flammable chemicals, combustible materials, and high-voltage equipment. Your response must be guided by the nationally recognized acronym **R.A.C.E.**
+
+*  **R - Rescue:** Rescue anyone in immediate danger from the fire, *if it does not place you in danger*. This means helping someone who is right next to you, not running into a smoke-filled room {-}
+
+*  **A - Alarm:** Activate the nearest fire alarm pull station AND call the facility's emergency phone number to report the fire. Yell "Fire!" to alert those around you. Do not assume someone else has already done this {-}
+
+*  **C - Contain/Confine:** Close all doors and windows as you leave. This simple act is incredibly important as it slows the spread of smoke and fire, protecting the rest of the building and buying precious time for everyone to evacuate {-}
+
+*  **E - Extinguish or Evacuate:** This is a critical decision point {-}
+    *   **Extinguish:** ONLY if the fire is small (e.g., the size of a small wastebasket), you have a clear path to an exit, and you are trained to use a fire extinguisher, should you attempt to fight it
+    *   **Evacuate:** In all other situations, you must evacuate immediately. Proceed calmly to the nearest safe exit and go to your department's designated assembly point outside
+
+### **Using a Fire Extinguisher: The P.A.S.S. Method** {-}
+
+If you make the decision to extinguish a small fire, you must know how to operate the extinguisher using the **P.A.S.S.** method
+
+*   **P - Pull:** the pin
+*   **A - Aim:** the nozzle at the **BASE** of the fire, not the flames
+*   **S - Squeeze:** the handle to discharge the agent
+*   **S - Sweep:** the nozzle from side to side across the base of the fire
+
+Most lab extinguishers are **Class ABC**, meaning they are effective against fires involving ordinary combustibles (wood, paper), flammable liquids (alcohols, solvents), and electrical equipment, which covers most hazards we face
+
+## **Key Terms** {-}
+
+*   **RACE:** The acronym for the fire response plan: **R**escue, **A**larm, **C**ontain, **E**xtinguish/Evacuate
+*   **PASS:** The acronym for the proper operation of a fire extinguisher: **P**ull, **A**im, **S**queeze, **S**weep
+*   **Post-Exposure Prophylaxis (PEP):** A course of preventive medical treatment, such as antiviral medications, administered immediately following an exposure to a pathogen to prevent infection
+*   **Parenteral Exposure:** An exposure that occurs when blood or other infectious material is introduced directly into the body through a break in the skin, such as a needlestick or cut
+*   **Mucous Membranes:** The moist linings of the eyes, nose, and mouth, which are highly susceptible entry points for pathogens during a splash exposure
+*   **Exposure Control Plan:** The formal, OSHA-required written plan for a workplace that details the procedures and medical protocols to be followed in the event of an employee exposure to a bloodborne pathogen
+*   **Class ABC Fire Extinguisher:** A multi-purpose extinguisher effective against Class A (combustibles), Class B (flammable liquids), and Class C (electrical) fires, making it the most common type found in laboratories

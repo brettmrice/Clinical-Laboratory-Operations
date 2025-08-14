@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Flow Cytometry | LO</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="Let’s step into what I like to call the airport security checkpoint of the cellular world: flow cytometry. This technology is one of the most remarkable advances in the modern laboratory. All the...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Flow Cytometry | LO">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Let’s step into what I like to call the airport security checkpoint of the cellular world: flow cytometry. This technology is one of the most remarkable advances in the modern laboratory. All the...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Flow Cytometry | LO">
+<meta name="twitter:description" content="Let’s step into what I like to call the airport security checkpoint of the cellular world: flow cytometry. This technology is one of the most remarkable advances in the modern laboratory. All the...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Quality Assessment &amp; Troubleshooting</li>
+<li><a class="" href="preanalytical-analytical-postanalytical.html">Preanalytical, Analytical, Postanalytical</a></li>
+<li><a class="" href="quality-control.html">Quality Control</a></li>
+<li><a class="" href="point-of-care-testing.html">Point-of-Care Testing</a></li>
+<li><a class="" href="compliance.html">Compliance</a></li>
+<li><a class="" href="regulation.html">Regulation</a></li>
+<li class="book-part">Safety</li>
+<li><a class="" href="programs-practices.html">Programs &amp; Practices</a></li>
+<li><a class="" href="infection-prevention.html">Infection Prevention</a></li>
+<li><a class="" href="use-of-ppe.html">Use of PPE</a></li>
+<li><a class="" href="safe-work-practices.html">Safe Work Practices</a></li>
+<li><a class="" href="packaging-transportation.html">Packaging &amp; Transportation</a></li>
+<li><a class="" href="safety-data-sheets.html">Safety Data Sheets</a></li>
+<li><a class="" href="emergency-procedures.html">Emergency Procedures</a></li>
+<li class="book-part">Lab Math</li>
+<li><a class="" href="concentration-volume-dilutions.html">Concentration, Volume, &amp; Dilutions</a></li>
+<li><a class="" href="molarity-normality.html">Molarity &amp; Normality</a></li>
+<li><a class="" href="standard-curves.html">Standard Curves</a></li>
+<li><a class="" href="mean-median-mode-confidence-intervals.html">Mean, Median, Mode, &amp; Confidence Intervals</a></li>
+<li><a class="" href="sensitivity-specificity-predictive-values.html">Sensitivity, Specificity, &amp; Predictive Values</a></li>
+<li class="book-part">Man/Auto Methods &amp; Instruments</li>
+<li><a class="" href="basic-lab-equipment.html">Basic Lab Equipment</a></li>
+<li><a class="" href="spectrophotometry-photometry.html">Spectrophotometry &amp; Photometry</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="osmometry.html">Osmometry</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="chromatography.html">Chromatography</a></li>
+<li><a class="" href="electrochemistry.html">Electrochemistry</a></li>
+<li><a class="" href="fluorometry.html">Fluorometry</a></li>
+<li><a class="" href="nephelometry.html">Nephelometry</a></li>
+<li><a class="active" href="flow-cytometry.html">Flow Cytometry</a></li>
+<li><a class="" href="molecular-methods.html">Molecular Methods</a></li>
+<li><a class="" href="automated-microbiology-processors.html">Automated Microbiology Processors</a></li>
+<li><a class="" href="hematology-instrumentation.html">Hematology Instrumentation</a></li>
+<li class="book-part">Basic Management</li>
+<li><a class="" href="principles.html">Principles</a></li>
+<li class="book-part">Education</li>
+<li><a class="" href="principles-1.html">Principles</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="flow-cytometry" class="section level1 unnumbered">
+<h1>Flow Cytometry<a class="anchor" aria-label="anchor" href="#flow-cytometry"><i class="fas fa-link"></i></a>
+</h1>
+<p>Let’s step into what I like to call the airport security checkpoint of the cellular world: <strong>flow cytometry</strong>. This technology is one of the most remarkable advances in the modern laboratory. All the methods we’ve discussed so far — spectrophotometry, nephelometry, chemistry—measure analytes in a “biological soup.” We take a patient’s plasma, and we measure the <em>average</em> concentration of glucose or the <em>total</em> amount of a specific protein. But what if we need to analyze individual cells? What if we need to know not just <em>if</em> a certain cell type is present, but how many there are, what their size is, and what specific proteins they have on their surface? That is the unique and incredible power of flow cytometry. It is a technology that allows us to analyze thousands of individual cells per second, one by one, giving us a detailed statistical portrait of a cell population</p>
+<div id="core-principle-one-cell-at-a-time" class="section level2 unnumbered">
+<h2>
+<strong>Core Principle: One Cell at a Time</strong><a class="anchor" aria-label="anchor" href="#core-principle-one-cell-at-a-time"><i class="fas fa-link"></i></a>
+</h2>
+<p>I want you to hold onto that airport security analogy. How does an airport screen thousands of passengers efficiently? It forces them into a single-file line. Flow cytometry does the exact same thing with cells using a brilliant piece of fluid engineering called <strong>hydrodynamic focusing</strong>. A stream of cell-containing sample fluid is injected into the center of a much larger, faster-flowing stream of sheath fluid. This outer fluid squeezes the sample stream, accelerating it and forcing the cells, which were randomly suspended, to line up perfectly in single file, like beads on a string</p>
+<p>This perfectly ordered stream of cells is then directed through the <strong>interrogation point</strong>, where it is zapped by one or more highly focused <strong>lasers</strong>. As each individual cell passes through the laser beam, it both scatters the light and, if it’s labeled, gives off fluorescence. Detectors are precisely positioned to capture these light signals, turning each passing cell into a multi-parameter data point</p>
+</div>
+<div id="what-we-measure-scatter-and-fluorescence" class="section level2 unnumbered">
+<h2>
+<strong>What We Measure: Scatter and Fluorescence</strong><a class="anchor" aria-label="anchor" href="#what-we-measure-scatter-and-fluorescence"><i class="fas fa-link"></i></a>
+</h2>
+<p>For every single cell that passes through the laser, the instrument gathers two primary types of information:</p>
+<div id="light-scatter-the-physical-characteristics" class="section level3 unnumbered">
+<h3>
+<strong>Light Scatter: The Physical Characteristics</strong><a class="anchor" aria-label="anchor" href="#light-scatter-the-physical-characteristics"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Forward Scatter (FSC):</strong> A detector placed directly in the path of the laser beam measures the light that is scattered at a very low angle. This signal is largely diffracted light and is directly proportional to the <strong>size of the cell</strong>. A large lymphocyte will produce a bigger FSC signal than a small red blood cell. It’s like measuring the size of the shadow the cell casts</li>
+<li>
+<strong>Side Scatter (SSC):</strong> A detector placed at a 90-degree angle to the laser beam measures light that is bounced off at a high angle. This signal is primarily caused by light reflecting and refracting off of structures <em>inside</em> the cell, such as granules and the nucleus. SSC is therefore proportional to the <strong>complexity or granularity</strong> of the cell. A granulocyte, full of granules, will have a very high SSC signal, while a lymphocyte, with its smooth cytoplasm, will have a very low SSC signal</li>
+</ul>
+<p>By plotting FSC (size) vs. SSC (complexity) on a graph, we can immediately separate the major white blood cell populations: lymphocytes (small, non-granular), monocytes (large, slightly complex), and granulocytes (large, very granular)</p>
+</div>
+<div id="fluorescence-the-molecular-fingerprint" class="section level3 unnumbered">
+<h3>
+<strong>Fluorescence: The Molecular Fingerprint</strong><a class="anchor" aria-label="anchor" href="#fluorescence-the-molecular-fingerprint"><i class="fas fa-link"></i></a>
+</h3>
+<p>This is where the true power of flow cytometry is unlocked. We can use highly specific antibodies that have been tagged with a fluorescent molecule (<strong>fluorochrome</strong>). These antibodies will only bind to a specific protein marker on the cell surface, known as a <strong>Cluster of Differentiation (CD)</strong> marker. For example, all helper T-cells have a CD4 protein on their surface. We can use an anti-CD4 antibody tagged with a green fluorochrome</p>
+<p>When a cell labeled with this antibody passes through the laser, the laser excites the fluorochrome, causing it to emit its characteristic green light. A special detector, set up with filters that only allow that specific shade of green light through, will register a signal. By using multiple antibodies with different colored fluorochromes, we can ask many questions about a single cell simultaneously: “Is it a lymphocyte? (FSC/SSC) AND does it have CD3? (a T-cell marker) AND does it have CD4? (a helper T-cell marker).” This process is called <strong>immunophenotyping</strong></p>
+</div>
+</div>
+<div id="visualizing-the-data-gating" class="section level2 unnumbered">
+<h2>
+<strong>Visualizing the Data: Gating</strong><a class="anchor" aria-label="anchor" href="#visualizing-the-data-gating"><i class="fas fa-link"></i></a>
+</h2>
+<p>Analyzing data from 100,000 cells would be impossible without a key data analysis technique called <strong>gating</strong>. On a scatterplot, we can use the computer to draw a digital circle or “gate” around a population of interest. For example, we can draw a gate around the lymphocyte cluster on our FSC vs. SSC plot. Then we can tell the computer, “IGNORE all the other cells. Of ONLY the cells inside this lymphocyte gate, show me how many are positive for CD4 and how many are positive for CD8.” Gating is the fundamental tool we use to drill down and interrogate specific subpopulations of cells</p>
+</div>
+<div id="major-clinical-applications" class="section level2 unnumbered">
+<h2>
+<strong>Major Clinical Applications</strong><a class="anchor" aria-label="anchor" href="#major-clinical-applications"><i class="fas fa-link"></i></a>
+</h2>
+<p>Flow cytometry is the cornerstone of advanced hematology and immunology:</p>
+<ul>
+<li>
+<strong>Leukemia and Lymphoma Diagnosis:</strong> This is its star role. We can determine the exact lineage of a cancer (is it a B-cell, T-cell, or myeloid leukemia?) by identifying the unique pattern of CD markers on the malignant cells. This is essential for proper diagnosis and treatment</li>
+<li>
+<strong>HIV Patient Monitoring:</strong> The progression of HIV/AIDS is tracked by measuring the patient’s absolute <strong>CD4 count</strong>. Flow cytometry is the standard method for this vital test</li>
+<li>
+<strong>Stem Cell Enumeration:</strong> Before a bone marrow or stem cell transplant, flow cytometry is used to count the number of CD34-positive stem cells to ensure the patient receives a sufficient dose</li>
+<li>
+<strong>Monitoring Immunodeficiencies:</strong> Evaluating the presence or absence of specific lymphocyte populations</li>
+</ul>
+</div>
+<div id="key-terms-25" class="section level2 unnumbered">
+<h2>
+<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-25"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Flow Cytometry:</strong> A powerful technology that measures and analyzes multiple physical and chemical characteristics of individual cells as they flow in a fluid stream through a beam of light</li>
+<li>
+<strong>Hydrodynamic Focusing:</strong> The process of using a sheath fluid to narrow a sample stream, forcing cells to align in a single file for analysis</li>
+<li>
+<strong>Immunophenotyping:</strong> The process of using fluorescently-labeled antibodies to identify cells based on their specific surface protein markers (CD markers)</li>
+<li>
+<strong>Forward Scatter (FSC):</strong> A light scatter measurement in flow cytometry that is proportional to a cell’s size or surface area</li>
+<li>
+<strong>Side Scatter (SSC):</strong> A light scatter measurement in flow cytometry that is proportional to a cell’s internal complexity or granularity</li>
+<li>
+<strong>Gating:</strong> A data analysis technique in flow cytometry where a digital boundary is drawn around a population of cells on a scatterplot to isolate them for further analysis</li>
+<li>
+<strong>Fluorochrome:</strong> A fluorescent dye molecule that can be attached to an antibody and is used as a label in flow cytometry. It absorbs light at one wavelength and emits it at a longer wavelength</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="nephelometry.html">Nephelometry</a></div>
+<div class="next"><a href="molecular-methods.html">Molecular Methods</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#flow-cytometry">Flow Cytometry</a></li>
+<li><a class="nav-link" href="#core-principle-one-cell-at-a-time">Core Principle: One Cell at a Time</a></li>
+<li>
+<a class="nav-link" href="#what-we-measure-scatter-and-fluorescence">What We Measure: Scatter and Fluorescence</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#light-scatter-the-physical-characteristics">Light Scatter: The Physical Characteristics</a></li>
+<li><a class="nav-link" href="#fluorescence-the-molecular-fingerprint">Fluorescence: The Molecular Fingerprint</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#visualizing-the-data-gating">Visualizing the Data: Gating</a></li>
+<li><a class="nav-link" href="#major-clinical-applications">Major Clinical Applications</a></li>
+<li><a class="nav-link" href="#key-terms-25">Key Terms</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/01-D-09.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/01-D-09.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+</body>
+</html>

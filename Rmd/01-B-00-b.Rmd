@@ -1,0 +1,64 @@
+# Use of PPE {-}
+
+We've established the "golden rule" of Standard Precautions — treating everything as potentially infectious. We've talked about engineering controls that design danger out of the process. But what happens when you have to physically handle a sample? What is the one thing that stands between you and a potential pathogen? It's your **Personal Protective Equipment**, or **PPE**
+
+Think of PPE as your personal body armor. It’s the last and most personal line of defense you have. But just like a soldier wouldn't wear a helmet to protect their feet, you must be a smart and strategic user of your armor. The effectiveness of PPE is not just in *wearing* it, but in selecting the *right* PPE for the task, wearing it *correctly*, and, most critically, removing it without contaminating yourself. This is a skill that requires knowledge, practice, and constant vigilance
+
+## **Risk Assessment: Choosing Your Armor** {-}
+
+You don't need to wear a full-body hazmat suit to answer the phone in the lab. The guiding principle of PPE selection is a quick, mental **risk assessment** you perform before every task. You need to ask yourself: "What is the potential for splash, spray, splatter, or aerosolization of infectious material during this procedure?" The answer to that question dictates the level of armor you need
+
+*   **Low Risk (e.g., loading capped tubes onto an analyzer):** At a minimum, gloves and a lab coat are required
+*   **Medium Risk (e.g., uncapping specimens, pouring aliquots, preparing bacterial smears):** The potential for a splash or splatter is significant. This requires gloves, a lab coat, *and* face protection (goggles and a mask, or a full face shield)
+*   **High Risk (e.g., handling cultures of highly infectious aerosols like *Mycobacterium tuberculosis*):** This requires a specialized level of PPE, including an N95 respirator, and is performed within a Biological Safety Cabinet
+
+## **Core Components of Your Arsenal** {-}
+
+Let's break down the standard-issue gear you'll find in every clinical laboratory
+
+*   **Gloves:** These are your second skin. The most common types are nitrile or vinyl, as latex allergies are a significant concern
+    *   **When to Wear:** Any time you might touch blood, body fluids, contaminated items, or contaminated surfaces
+    *   **Critical Rules:** Gloves are single-use. You must change them between every patient sample and whenever they become torn or heavily soiled. Most importantly, you must remove your gloves and perform hand hygiene before touching "clean" surfaces like telephones, computer keyboards, or your own face. A gloved hand is a "dirty" hand
+*   **Laboratory Coats/Gowns:** This is your primary shield for your body and clothing
+    *   **What to Wear:** Coats must be fluid-resistant, long-sleeved, and preferably have knit cuffs that create a snug seal around your wrists. They should be buttoned or snapped completely closed when in the lab
+    *   **Critical Rules:** Your lab coat is a designated piece of contaminated equipment. It is *never* to be worn outside the laboratory work area. Do not wear your lab coat to the breakroom, the library, or the cafeteria. This is a major route for cross-contamination and a serious safety violation
+*   **Face Protection:** Your eyes, nose, and mouth are prime entry points for pathogens. Protecting them is non-negotiable when there is a risk of splashes
+    *   **Goggles:** Protect your eyes from splashes but do not cover the nose or mouth
+    *   **Masks:** Protect your nose and mouth from splashes and prevent you from inhaling large droplets. Standard surgical masks do not protect against tiny aerosolized particles
+    *   **Face Shields:** The best of both worlds. A face shield is a large, clear visor that protects your entire face—eyes, nose, and mouth—from splashes and sprays. It is often the preferred choice for tasks like specimen processing
+*   **Respiratory Protection:** This is a higher level of protection used for specific, known airborne hazards
+    *   **N95 Respirators:** Unlike a simple mask, an N95 respirator is designed to form a tight seal to the face and filter out at least 95% of very small airborne particles. They are required when working with patients or specimens with known or suspected airborne diseases like tuberculosis
+    *   **Critical Rules:** To be effective, an N95 must be **fit-tested**. This is a formal procedure where a professional tests to ensure the specific brand, style, and size of respirator forms a perfect seal on your individual face. You cannot just grab one off the shelf and expect it to protect you
+
+## **Most Dangerous Step: Donning and Doffing** {-}
+
+You can do everything right, but if you contaminate yourself while taking your PPE off, the whole system fails. There is a specific, logical sequence for putting PPE on (**donning**) and taking it off (**doffing**). The guiding principle of doffing is "dirty to dirty" — you want to touch the contaminated outside of your PPE as little as possible
+
+### **Donning Sequence (Putting On)** {-}
+
+1.  **Gown/Lab Coat** Put it on and fasten it securely
+2.  **Mask or Respirator** Secure it to your head and adjust the fit
+3.  **Goggles or Face Shield** Position it comfortably over your face and eyes
+4.  **Gloves** Pull the gloves on last, ensuring the cuff of the glove goes *over* the cuff of your gown. This creates a complete seal
+
+### **Doffing Sequence (Taking Off)** {-}
+
+This is the critical step. Think of the outside surfaces as highly contaminated
+
+1.  **Gloves** Remove them first, as they are the most contaminated. Use one gloved hand to peel the other glove off, turning it inside out. Then, slide your now-clean fingers under the cuff of the remaining glove and peel it off without touching the outside
+2.  **Goggles/Face Shield** Remove from the back of your head by lifting the strap. Avoid touching the front surface
+3.  **Gown/Lab Coat** Unfasten it. Peel it away from your body, touching only the inside. Roll it into a ball with the contaminated side facing inward as you remove it
+4.  **Mask or Respirator** Remove it from the back by the straps. Do not touch the front
+5.  **HAND HYGIENE** Immediately and thoroughly wash your hands or use an alcohol-based sanitizer as the final step
+
+Mastering the use of PPE is not just about following rules; it's about developing an unwavering habit of personal protection. It's the skill that ensures your safety so you can focus on ensuring the safety of your patients
+
+## **Key Terms** {-}
+
+*   **Personal Protective Equipment (PPE):** Specialized equipment or clothing worn by an individual to create a barrier against infectious materials or other hazards, serving as the last line of defense
+*   **Donning:** The specific sequence and procedure for properly putting on Personal Protective Equipment before entering a hazardous area or performing a task
+*   **Doffing:** The critical sequence and procedure for properly removing Personal Protective Equipment to prevent self-contamination after a task is completed
+*   **N95 Respirator:** A type of respiratory protection that forms a tight seal to the face and filters at least 95% of airborne particles, used for protection against airborne pathogens like *M. tuberculosis*
+*   **Fit Testing:** The mandatory process used to determine which brand, style, and size of respirator properly fits an individual's face to ensure a protective seal
+*   **Exposure Control Plan:** An OSHA-required written plan for a workplace that outlines the specific measures taken to eliminate or minimize employee exposure to bloodborne pathogens, including rules for PPE
+*   **Risk Assessment:** The mental or formal process of evaluating a task to determine the potential for exposure to hazards (e.g., splashes, aerosols) in order to select the appropriate level of PPE

@@ -1,0 +1,48 @@
+# Electrophoresis {-}
+
+**Electrophoresis** is one of the most visually intuitive and diagnostically powerful techniques in our arsenal. I want you to picture a molecular racetrack. We have a starting line, a finish line, and a track made of a gel-like substance. Our "runners" are the molecules we want to separate, like proteins or DNA. But instead of running on their own power, we use electricity to pull them through the track. This, in its essence, is electrophoresis—the migration of charged particles in an electrical field
+
+This technique is a cornerstone for analyzing large, complex molecules. We can't just throw proteins into a chemistry analyzer and get a single number. Proteins are a diverse family of molecules, and electrophoresis allows us to separate them out into their major groups, giving us a picture of what's happening in the body that no single test can provide
+
+## **Core Principle: A Race of Charge and Size** {-}
+
+The entire process hinges on two fundamental properties of the molecules being separated:
+
+1.  **Electrical Charge** This is the engine of the race. The support medium is saturated with a buffer solution, creating an electrical circuit. When we apply a current, one end of the gel becomes the positive pole (**anode**) and the other becomes the negative pole (**cathode**). Molecules with a negative charge will be pulled toward the positive anode, while positively charged molecules will be pulled toward the negative cathode. The greater the charge on the molecule, the stronger the pull, and the faster it will move
+2.  **Size and Shape** This is the resistance. The gel itself is not an empty space; it's a porous matrix, like a microscopic sponge or a thick forest. As molecules are pulled through the gel, they have to navigate this matrix. Smaller, more compact molecules can zip through the pores easily, while large, bulky molecules get tangled up and move more slowly. Therefore, for a group of molecules with the same charge, the smallest one will travel the farthest
+
+In clinical protein electrophoresis, we use a buffer that makes all the major serum proteins take on a **net negative charge**. This way, they all start at the cathode end and race toward the anode. Their separation is then based on a combination of how negative they are and how big they are, which neatly sorts them into distinct bands
+
+## **Anatomy of a Classic Electrophoresis System** {-}
+
+Whether it's a manual gel setup or an automated analyzer, the core components are the same:
+
+*   **The Power Supply:** This provides the direct current (DC) electricity that creates the positive anode and negative cathode, driving the entire separation process
+*   **The Electrophoresis Chamber:** This holds the support medium and the buffer, with two separate compartments connected by the medium to create the circuit
+*   **The Support Medium:** This is the "racetrack" itself. For serum proteins, this is commonly **agarose gel**, a seaweed derivative that forms a porous matrix. For separating smaller molecules like DNA or resolving very similar proteins, a tighter gel called **polyacrylamide (PAGE)** is often used
+*   **The Buffer:** This is a solution of a specific pH that fills the chamber and soaks the gel. Its job is two-fold: it carries the electrical current, and, critically, it maintains a constant pH to ensure that the charge on our protein runners remains stable throughout the race
+*   **Sample Application:** We use a fine applicator to apply a small, thin streak of the patient's sample (e.g., serum or urine) onto the gel at the starting line
+*   **Staining:** After the race is over and the power is turned off, the proteins are invisible. To see them, we have to stain the gel with a protein-specific dye (like Amido Black or Coomassie Blue). This reveals the separated proteins as a series of distinct bands
+*   **Densitometry:** To turn this visual pattern into a quantitative result, an instrument called a **densitometer** scans the stained gel with a beam of light. It measures the darkness of each band, generating a graph that looks like a series of peaks. The area under each peak is proportional to the concentration of that protein fraction, which is then reported as a percentage of the total protein
+
+## **A Star Application: Serum Protein Electrophoresis (SPEP)** {-}
+
+The classic SPEP is the perfect example of this process in action. When we run a patient's serum, the proteins separate into five distinct, predictable bands:
+
+1.  **Albumin** As the most abundant and highly negative protein, it runs the fastest and farthest, forming a large, prominent band
+2.  **Alpha-1 Globulins** A smaller band that runs behind albumin
+3.  **Alpha-2 Globulins** The next band in the sequence
+4.  **Beta Globulins** This fraction often contains transferrin and can sometimes fuse with the next band
+5.  **Gamma Globulins** This is the slowest fraction, located nearest the starting line. It contains the majority of our immunoglobulins (antibodies)
+
+The pattern of these bands is diagnostically powerful. For example, in the case of **Multiple Myeloma**, a cancer of plasma cells, the malignant cells produce a huge amount of a single, identical antibody. On the electrophoresis gel, this shows up as a dense, narrow, dark band in the gamma region, which we call a **monoclonal spike** or **M-protein**. Seeing this distinctive pattern is one of the most critical findings in the entire clinical lab
+
+## **Key Terms** {-}
+
+*   **Electrophoresis:** A laboratory technique used to separate macromolecules like DNA, RNA, and proteins based on their size and electrical charge by applying an electric field to a gel matrix
+*   **Anode:** The positively charged electrode in an electrophoresis system. Negatively charged molecules (anions) migrate towards the anode
+*   **Cathode:** The negatively charged electrode in an electrophoresis system. Positively charged molecules (cations) migrate towards the cathode
+*   **Support Medium:** The porous matrix (e.g., agarose or polyacrylamide gel) through which molecules migrate during electrophoresis
+*   **Buffer:** An ionic solution that maintains a constant pH and conducts the electrical current through the support medium
+*   **Densitometry:** The quantitative process of scanning a stained electrophoresis gel to measure the density of each band, which corresponds to the concentration of the analyte in that fraction
+*   **Ampholyte:** A molecule, such as a protein, that possesses both acidic (negative) and basic (positive) groups and can therefore have a net positive, negative, or zero charge depending on the pH of the surrounding buffer

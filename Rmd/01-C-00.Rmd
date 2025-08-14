@@ -1,0 +1,94 @@
+# (PART\*) Lab Math {-}
+
+# Concentration, Volume, & Dilutions {-}
+
+**Laboratory Mathematics** is the bedrock of almost everything we do at the bench. I know, I know — the word "math" can sometimes trigger a bit of anxiety, but I want you to reframe that. Don't think of this as abstract, complex calculus. Think of it as **kitchen chemistry**. It's the same logic you'd use to make a pitcher of juice from concentrate or follow a recipe to bake a cake. It's about ratios, proportions, and following instructions, and mastering it is one of the most powerful and practical skills in your arsenal
+
+At its core, lab math is about creating something we need (like a working control or a calibration standard) from something we have (a concentrated stock solution). It's also about figuring out the true concentration of a patient sample that was too high for our instrument to read directly. This entire world revolves around three key players: Concentration, Volume, and Dilutions
+
+## **Core Concepts** {-}
+
+*   **Concentration:** This is simply the "strength" of a solution. It's the amount of one substance (the **solute**, like glucose) dissolved in a certain amount of another substance (the **solvent**, like water). We express concentration in many ways: mg/dL, g/L, moles/L (Molarity), or even as a percentage (%). Just remember, concentration always has two parts: an amount per a unit of space
+*   **Volume:** This is straightforward—it's the amount of three-dimensional space a liquid occupies. In the lab, we live in a world of liters (L), milliliters (mL), and microliters (µL). Precision in measuring volume is everything
+*   **Dilution:** This is the process of making a solution *less concentrated*, usually by adding more solvent (we often call this the **diluent**). Why do we do this?
+    *   **To create working solutions:** We often buy reagents in a highly concentrated, stable stock form to save space and money. We then dilute them to a "working strength" for daily use
+    *   **To measure high patient samples:** If a patient's glucose is 900 mg/dL, our analyzer might only be able to accurately read up to 600 mg/dL. To get a result, we must perform a precise dilution (e.g., mix one part of the patient's serum with one part of saline) to bring the concentration down into the instrument's measurable range. Then, we use math to calculate the original, undiluted value
+
+## **Universal Formula: C1V1 = C2V2** {-}
+
+This simple equation is your absolute best friend. It is the master key that unlocks almost every dilution problem you will ever face. It stands for:
+
+**(Initial Concentration) x (Initial Volume) = (Final Concentration) x (Final Volume)**
+
+Let's break it down:
+
+*   **C1:** The concentration of your starting solution (your concentrated stock)
+*   **V1:** The volume of that starting solution you will need to take
+*   **C2:** The final, desired concentration of your new solution
+*   **V2:** The final, desired volume of your new solution
+
+You will almost always know three of these four values, and your job is to solve for the one unknown
+
+### **A Classic Example: Making a Working Control** {-}
+
+**Problem** You have a 1000 mg/dL glucose stock standard (this is your C1). You need to make 5 mL (your V2) of a 200 mg/dL working control (your C2). How much of the stock standard do you need to use (what is V1)?
+
+1.  **Write down what you know**
+    *   C1 = 1000 mg/dL
+    *   V1 = ??? (This is what we need to find)
+    *   C2 = 200 mg/dL
+    *   V2 = 5 mL
+2.  **Set up the equation**
+    *   C1V1 = C2V2
+    *   (1000 mg/dL) * (V1) = (200 mg/dL) * (5 mL)
+3.  **Solve for V1**
+    *   First, simplify the right side: 200 * 5 = 1000
+    *   (1000 mg/dL) * (V1) = 1000 mg/dL · mL
+    *   Now, isolate V1 by dividing both sides by 1000 mg/dL:
+    *   V1 = (1000 mg/dL · mL) / (1000 mg/dL)
+    *   **V1 = 1 mL**
+4.  **Translate back to a lab instruction** The math tells you to take **1 mL of your 1000 mg/dL stock solution**. To get to your final volume of 5 mL, you will place that 1 mL into a flask and add **4 mL of diluent** (1 mL solute + 4 mL diluent = 5 mL total volume). And just like that, you've made your working control
+
+## **Understanding Dilution Ratios and Factors** {-}
+
+This is the second critical piece of the puzzle, especially for calculating patient results
+
+A dilution is often expressed as a ratio, like **1:10** (read as "one in ten"). This is where the single most common student error occurs. A 1:10 dilution does **NOT** mean 1 part sample to 10 parts diluent. It means **1 part sample in a TOTAL of 10 parts.**
+
+Therefore: **1 part sample + 9 parts diluent = 1:10 dilution**
+
+The **dilution factor** is simply the reciprocal of the dilution ratio. For a 1:10 dilution, the dilution factor is 10. For a 1:2 dilution, the factor is 2
+
+### **Calculating the Final Patient Result** {-}
+
+This is why we care about the dilution factor. Let's go back to our high glucose patient
+
+*   The result was too high to read, so you made a **1:2 dilution** (1 part serum + 1 part saline)
+*   You run the diluted sample on the analyzer, and it now reads **450 mg/dL**
+*   Is that the patient's result? No! That's the result of the *diluted* sample
+*   To get the true result, you must multiply the instrument readout by the dilution factor
+
+**Instrument Result x Dilution Factor = True Patient Result**
+
+450 mg/dL x 2 = **900 mg/dL**
+
+This is the final, correct result that you would report for that patient
+
+## **Serial Dilutions** {-}
+
+A serial dilution is simply a series of dilutions where each new dilution is made from the previous one. They are very common in areas like serology for determining antibody titers. To find the final dilution of a tube in the series, you simply multiply the dilution factor of each preceding step
+
+*   **Example:** You make a 1:10 dilution in Tube 1. You then take from Tube 1 and make another 1:10 dilution in Tube 2. The dilution in Tube 2 is *not* 1:20. It is:
+    *   (1/10) x (1/10) = **1/100 or 1:100**
+
+Mastering these calculations isn't just about passing an exam; it's about owning a fundamental skill of the laboratory that ensures accuracy, efficiency, and patient safety every single day
+
+## **Key Terms** {-}
+
+*   **Concentration:** The amount of a substance (solute) present in a given amount of another substance (solvent). It expresses the "strength" of a solution
+*   **Dilution:** The process of reducing the concentration of a solute in a solution, typically by mixing it with more solvent (diluent)
+*   **Solute:** The substance that is dissolved in a solution (e.g., the salt in saltwater)
+*   **Solvent:** The substance in which a solute is dissolved to form a solution (e.g., the water in saltwater)
+*   **Diluent:** The liquid used to perform a dilution. In many clinical applications, this is saline or deionized water
+*   **Stock Solution:** A highly concentrated solution that is stored and then diluted to a lower, "working" concentration for use
+*   **Dilution Factor:** The reciprocal of the dilution ratio, used to calculate the original concentration of a diluted sample. (e.g., for a 1:5 dilution, the dilution factor is 5)

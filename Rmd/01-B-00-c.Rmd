@@ -1,0 +1,61 @@
+# Safe Work Practices {-}
+
+We've covered the physical barriers we design into our environment (engineering controls) and the personal armor we wear (PPE). Now, let's dive into the most active component of our safety system: **Safe Work Practices**. This is all about *behavior*. It's the collection of habits, techniques, and procedures that we consciously perform to reduce risk. If PPE is our armor, then safe work practices are our skilled swordsmanship—the way we move and act to avoid danger in the first place
+
+Think of a professional chef's kitchen. It's a place full of hazards—sharp knives, hot surfaces, and the risk of cross-contamination. Chefs develop a "muscle memory" of safety: they always hold a knife a certain way, they announce "hot pot!" when moving around, and they use different cutting boards for raw meat and vegetables. We, as laboratory professionals, must cultivate this same kind of ingrained safety discipline. These aren't just rules on a poster; they are the professional habits that define a safe and competent scientist
+
+## **The Guiding Mantra: "Clean to Dirty"** {-}
+
+Before we get into specifics, let's establish a core principle that should guide your workflow in almost every situation: work from "clean to dirty." This means you should organize your tasks and your workspace to prevent the contamination of clean items (like reagents, supplies, or your hands) by dirty items (patient specimens). This simple concept, when applied consistently, dramatically reduces the risk of cross-contamination and personal exposure
+
+*   **Example:** When working in a biological safety cabinet, you would place your clean media and supplies on one side, your specimens in the middle, and your biohazard disposal bag on the other side. Your workflow moves in one direction across the cabinet, from clean to dirty, never backward
+
+## **Core Work Practices for the Laboratory** {-}
+
+These are the non-negotiable "rules of the road" that apply to every laboratory professional, every single day
+
+### **Specimen Handling: The Art of Control** {-}
+
+This is where the risk is highest, and where our skill is most important. The goal is always to keep the specimen contained
+
+*   **Minimizing Aerosols:** An **aerosol** is a fine mist of invisible, infectious droplets that can be inhaled. They are one of the most insidious dangers in the lab. To prevent their creation, we practice:
+    *   Gently uncapping tubes. Avoid "popping" the top off a rubber stopper, which can spray microdroplets everywhere. A good technique is to use a piece of gauze over the cap as you twist and pull
+    *   Keeping specimen tubes capped or covered during centrifugation. Modern centrifuges have safety cups or lids for this exact purpose
+    *   Never forcefully expelling the contents of a pipette, which can create a splash
+*   **Preventing Splashes:** Always wear appropriate face protection when a splash is possible. Work behind a plexiglass shield when processing large volumes of samples. When pouring liquids, do it slowly and carefully to avoid splashing
+*   **Safe Pipetting:** The cardinal sin of historical laboratory practice was mouth pipetting. This is **ABSOLUTELY FORBIDDEN**. All pipetting must be done with a mechanical device (e.g., a pipettor or a bulb). This practice alone has saved countless lives
+
+### **Hygiene and Decontamination: Maintaining a Clean Field** {-}
+
+*   **Hand Hygiene:** This is the alpha and omega of safe work practices. It is the single most effective way to prevent the spread of infection. You must perform hand hygiene:
+    *   Immediately after removing gloves
+    *   Before leaving the laboratory
+    *   Before and after eating or using the restroom
+    *   Any time your hands are visibly soiled
+    *   Both soap-and-water washing and alcohol-based hand sanitizers are effective, but soap and water must be used if hands are visibly dirty or if you've been working with spore-forming organisms like *C. difficile*
+*   **Routine Decontamination of Work Surfaces:** Your workbench is not self-cleaning. It must be decontaminated with an appropriate disinfectant (like a fresh 1:10 dilution of bleach or an EPA-registered disinfectant) at the beginning and end of every shift, and immediately following any spill of biological material
+
+### **General Conduct and Housekeeping: A Clean Lab is a Safe Lab** {-}
+
+The overall environment plays a huge role in safety. A cluttered, messy lab is an unsafe lab
+
+*   **The Big Three "No's"**
+    1.  **NO eating or drinking** in the laboratory work areas
+    2.  **NO applying cosmetics, lip balm, or handling contact lenses** in the work areas
+    3.  **NO storing food or drink** in refrigerators or freezers that contain specimens or reagents
+    *   The reason for all of these is to eliminate any chance of hand-to-mouth transmission of a pathogen
+*   **Safe Sharps Handling:** Never recap, bend, or break a used needle. Immediately dispose of all used needles, lancets, and other contaminated sharps into a designated, puncture-resistant sharps container. Never overfill a sharps container; dispose of it when it is ¾ full
+*   **Proper Waste Segregation:** Know the difference between regular trash, biohazard waste, and sharps waste. Disposing of items in the wrong container can create a hazard for you, your colleagues, and downstream environmental service workers
+*   **Keep It Tidy:** A clear workbench prevents spills and errors. Return reagents to storage promptly and keep unnecessary items (like personal bags, books, or cell phones) out of the immediate work area
+
+These practices are not meant to be restrictive; they are meant to be empowering. By making them second nature, you create a bubble of safety around yourself and your colleagues, allowing you to perform your critical work with confidence and peace of mind
+
+## **Key Terms** {-}
+
+*   **Work Practice Controls:** The behaviors, techniques, and procedures adopted by an employee to reduce the risk of exposure to a hazard, such as proper handwashing and the no-recapping rule for needles
+*   **Aerosol:** A suspension of fine solid or liquid particles in a gas (like air), which can be created by actions like uncapping tubes or centrifuging, posing a significant inhalation risk
+*   **Decontamination:** The use of physical or chemical means to remove, inactivate, or destroy pathogens on a surface or item to the point where they are no longer capable of transmitting infectious particles
+*   **Standard Precautions:** The foundational safety principle that all human blood and certain body fluids should be treated as if they are known to be infectious, guiding all work practices
+*   **Biohazard Waste:** Any waste contaminated with potentially infectious biological material, which must be segregated from regular trash and disposed of according to specific safety protocols
+*   **Hand Hygiene:** The single most important practice for preventing the spread of infection, encompassing both handwashing with soap and water and the use of alcohol-based hand sanitizers
+*   **Sharps:** Any object that can puncture the skin, such as needles, lancets, slides, or broken glass, which requires special handling and disposal in a puncture-resistant container
